@@ -390,12 +390,17 @@
           }
         },
         {
-          "id": "062a9102-9435-47ca-8675-d9bce1c1c89b",
+          "id": "44866021-1255-476e-9f68-a7cb86da255a",
           "type": "basic.outputLabel",
           "data": {
             "name": "outok",
-            "range": "[1:0]",
+            "range": "[2:0]",
             "pins": [
+              {
+                "index": "2",
+                "name": "",
+                "value": ""
+              },
               {
                 "index": "1",
                 "name": "",
@@ -479,12 +484,17 @@
           }
         },
         {
-          "id": "4f704dcd-0ee1-456f-94f0-863bfca4da0b",
+          "id": "fdb1bb71-78d3-4d5f-85bb-281ba1aa6500",
           "type": "basic.outputLabel",
           "data": {
             "name": "out",
-            "range": "[1:0]",
+            "range": "[2:0]",
             "pins": [
+              {
+                "index": "2",
+                "name": "",
+                "value": ""
+              },
               {
                 "index": "1",
                 "name": "",
@@ -1526,18 +1536,6 @@
           }
         },
         {
-          "id": "bf6e011b-5562-4c09-a8b3-4d372794f2be",
-          "type": "00298ef55cf6088f80b1a4a3b1e380a2a4ce9485",
-          "position": {
-            "x": 864,
-            "y": 264
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
           "id": "9648ff0e-52b2-4568-a7b7-2a82132a6fb7",
           "type": "665f1c286b81ab6a40a258d1375d75e7940e7617",
           "position": {
@@ -1608,6 +1606,18 @@
             "width": 96,
             "height": 128
           }
+        },
+        {
+          "id": "a27d7b0e-ed4b-41de-b85e-35306843a5d9",
+          "type": "b40da6e557650abc55a25a2c69a6511959dc84e2",
+          "position": {
+            "x": 864,
+            "y": 264
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
         }
       ],
       "wires": [
@@ -1653,7 +1663,7 @@
         },
         {
           "source": {
-            "block": "bf6e011b-5562-4c09-a8b3-4d372794f2be",
+            "block": "a27d7b0e-ed4b-41de-b85e-35306843a5d9",
             "port": "0344dacc-8583-456b-b377-8cb4ab97cf94"
           },
           "target": {
@@ -2325,28 +2335,6 @@
         },
         {
           "source": {
-            "block": "4f704dcd-0ee1-456f-94f0-863bfca4da0b",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "bf6e011b-5562-4c09-a8b3-4d372794f2be",
-            "port": "2cd37537-b9f4-4f85-8e70-bd2b23905f1b"
-          },
-          "size": 2
-        },
-        {
-          "source": {
-            "block": "062a9102-9435-47ca-8675-d9bce1c1c89b",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "bf6e011b-5562-4c09-a8b3-4d372794f2be",
-            "port": "72b13a04-a68d-4bea-ba1c-48b43380e5da"
-          },
-          "size": 2
-        },
-        {
-          "source": {
             "block": "6d6f0086-c12a-400c-8768-76ae1c8b53bf",
             "port": "233059d5-8ab7-4c63-8dab-0c6af3a1dc28"
           },
@@ -2450,6 +2438,28 @@
           "target": {
             "block": "b88d9365-e462-44ab-9da3-b9ecfe80fdc4",
             "port": "1a64b8fe-b2b2-4a2b-8920-dcc54b6b069f"
+          },
+          "size": 3
+        },
+        {
+          "source": {
+            "block": "fdb1bb71-78d3-4d5f-85bb-281ba1aa6500",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "a27d7b0e-ed4b-41de-b85e-35306843a5d9",
+            "port": "02895c3c-06cb-49d7-9e3f-012ee448d996"
+          },
+          "size": 3
+        },
+        {
+          "source": {
+            "block": "44866021-1255-476e-9f68-a7cb86da255a",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "a27d7b0e-ed4b-41de-b85e-35306843a5d9",
+            "port": "0867b1bc-1cc5-4707-8ddb-40d0318d237c"
           },
           "size": 3
         }
