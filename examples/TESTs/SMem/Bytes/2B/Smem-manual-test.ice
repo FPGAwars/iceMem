@@ -475,8 +475,8 @@
           }
         },
         {
-          "id": "371e420b-b961-46ee-87b5-4709cc481a2b",
-          "type": "8948af1993c003f60f141da229343064244b10c2",
+          "id": "858dccca-57fa-41d7-b64f-b1369aa7c904",
+          "type": "a2ef826693d5286abf7d25ee565e113a2b067b76",
           "position": {
             "x": 584,
             "y": 160
@@ -494,7 +494,7 @@
             "port": "outlabel"
           },
           "target": {
-            "block": "371e420b-b961-46ee-87b5-4709cc481a2b",
+            "block": "858dccca-57fa-41d7-b64f-b1369aa7c904",
             "port": "122b5b1a-9cf4-424a-be0a-657b988b801d"
           },
           "vertices": [
@@ -518,7 +518,8 @@
         {
           "source": {
             "block": "bab60bc4-40bf-43a9-bf83-dcb07b97ecd9",
-            "port": "f9c58d8f-75fc-4483-b0d2-d584a555b1c5"
+            "port": "f9c58d8f-75fc-4483-b0d2-d584a555b1c5",
+            "size": 8
           },
           "target": {
             "block": "06d0d727-ab94-46cc-948a-0cae767e9cba",
@@ -541,6 +542,28 @@
               "y": 192
             }
           ]
+        },
+        {
+          "source": {
+            "block": "930355ce-8c80-4ad8-bbd6-f245ac9e65ce",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "858dccca-57fa-41d7-b64f-b1369aa7c904",
+            "port": "9931384a-74ee-4de4-9df7-cc04fd19cf46",
+            "size": 8
+          },
+          "size": 8
+        },
+        {
+          "source": {
+            "block": "ff4c6ef2-86c2-482a-94fb-e03e1c8d07c9",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "858dccca-57fa-41d7-b64f-b1369aa7c904",
+            "port": "c61902b3-38ce-45bf-98c9-322638c2264b"
+          }
         },
         {
           "source": {
@@ -607,7 +630,7 @@
         },
         {
           "source": {
-            "block": "371e420b-b961-46ee-87b5-4709cc481a2b",
+            "block": "858dccca-57fa-41d7-b64f-b1369aa7c904",
             "port": "2f18358c-ebaa-4fbf-99b4-610ab78deed2"
           },
           "target": {
@@ -615,27 +638,6 @@
             "port": "in"
           },
           "size": 8
-        },
-        {
-          "source": {
-            "block": "930355ce-8c80-4ad8-bbd6-f245ac9e65ce",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "371e420b-b961-46ee-87b5-4709cc481a2b",
-            "port": "9931384a-74ee-4de4-9df7-cc04fd19cf46"
-          },
-          "size": 8
-        },
-        {
-          "source": {
-            "block": "ff4c6ef2-86c2-482a-94fb-e03e1c8d07c9",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "371e420b-b961-46ee-87b5-4709cc481a2b",
-            "port": "c61902b3-38ce-45bf-98c9-322638c2264b"
-          }
         }
       ]
     }
@@ -1248,7 +1250,7 @@
         }
       }
     },
-    "8948af1993c003f60f141da229343064244b10c2": {
+    "a2ef826693d5286abf7d25ee565e113a2b067b76": {
       "package": {
         "name": "Memory-2B",
         "version": "1.0",
@@ -1344,7 +1346,7 @@
               "id": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
               "type": "basic.code",
               "data": {
-                "code": "//-- Address with\nlocalparam ADDR_WIDTH = 1;\n//-- Data with\nlocalparam DATA_WIDTH = 8;\n\n//-- Size of the memory\nlocalparam SIZE = 1 << ADDR_WIDTH;\n\n//-- Memory itself\nreg [DATA_WIDTH-1:0] mem[0:SIZE-1];\n\n//-- The data_out is a registered output (not a wire)\nreg data_out;\n\n//-- Reading port: Synchronous\nalways @(posedge clk)\nbegin\n  if (!wr) data_out <= mem[addr];\nend\n\n//-- Writing port: Synchronous\nalways @(posedge clk)\nbegin\n    if (wr) mem[addr] <= data_in;\nend\n\n\n//-- Init the memory\ninitial begin\n  \n  if (ROMF)\n    $readmemh(ROMF, mem, 0, SIZE-1);\n  \nend\n",
+                "code": "//-- Address with\nlocalparam ADDR_WIDTH = 1;\n//-- Data with\nlocalparam DATA_WIDTH = 8;\n\n//-- Size of the memory\nlocalparam SIZE = 1 << ADDR_WIDTH;\n\n//-- Memory itself\nreg [DATA_WIDTH-1:0] mem[0:SIZE-1];\n\n//-- The data_out is a registered output (not a wire)\nreg data_out;\n\n//-- Reading port: Synchronous\nalways @(posedge clk)\nbegin\n  data_out <= mem[addr];\nend\n\n//-- Writing port: Synchronous\nalways @(posedge clk)\nbegin\n    if (wr) mem[addr] <= data_in;\nend\n\n\n//-- Init the memory\ninitial begin\n  \n  if (ROMF)\n    $readmemh(ROMF, mem, 0, SIZE-1);\n  \nend\n",
                 "params": [
                   {
                     "name": "ROMF"
