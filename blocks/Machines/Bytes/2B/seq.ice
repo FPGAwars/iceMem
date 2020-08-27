@@ -25,38 +25,6 @@
           }
         },
         {
-          "id": "7fb933a6-5c63-4d46-8aaa-440b30974993",
-          "type": "basic.input",
-          "data": {
-            "name": "",
-            "clock": true
-          },
-          "position": {
-            "x": -32,
-            "y": -144
-          }
-        },
-        {
-          "id": "2c31aa6a-383c-4eb5-b669-b8a31ad14225",
-          "type": "basic.inputLabel",
-          "data": {
-            "blockColor": "yellow",
-            "name": "clk",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
-          },
-          "position": {
-            "x": 112,
-            "y": -144
-          }
-        },
-        {
           "id": "38abb13c-8652-41fb-931c-c7bf760ebb24",
           "type": "basic.output",
           "data": {
@@ -77,6 +45,38 @@
           "position": {
             "x": 1640,
             "y": -56
+          }
+        },
+        {
+          "id": "7fb933a6-5c63-4d46-8aaa-440b30974993",
+          "type": "basic.input",
+          "data": {
+            "name": "",
+            "clock": true
+          },
+          "position": {
+            "x": -88,
+            "y": 88
+          }
+        },
+        {
+          "id": "2c31aa6a-383c-4eb5-b669-b8a31ad14225",
+          "type": "basic.inputLabel",
+          "data": {
+            "blockColor": "yellow",
+            "name": "clk",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 56,
+            "y": 88
           }
         },
         {
@@ -904,7 +904,7 @@
           "id": "b62ad9b4-5b0e-4b74-a0ad-947946a59331",
           "type": "basic.info",
           "data": {
-            "info": "This circuits wants  \nto use the bus",
+            "info": "This circuit wants  \nto use the bus",
             "readonly": true
           },
           "position": {
@@ -1082,6 +1082,22 @@
           "size": {
             "width": 96,
             "height": 64
+          }
+        },
+        {
+          "id": "d287d89e-6fc2-4637-b9c8-8cc6668e7ca2",
+          "type": "basic.info",
+          "data": {
+            "info": "## Sequence machine:\n\nIt reads the whole memory, one byte at a time. Each read byte is  \nwritten to the data output along with its validation tic  \nIt starts from address 0. A done tic is emitted when finished  \nThe time is ms between two consecutive reads is a parameter set  \nby the user (300ms by default)\n\nThe typical application of this machine is to show the memory content  \non the LEDs",
+            "readonly": true
+          },
+          "position": {
+            "x": -104,
+            "y": -192
+          },
+          "size": {
+            "width": 648,
+            "height": 176
           }
         }
       ],
