@@ -224,8 +224,8 @@
             "clock": false
           },
           "position": {
-            "x": 896,
-            "y": 488
+            "x": 928,
+            "y": 528
           }
         },
         {
@@ -245,7 +245,7 @@
           "id": "d1dee6f5-1301-424e-a9a8-dbfca995c962",
           "type": "basic.memory",
           "data": {
-            "name": "",
+            "name": "RAM contents",
             "list": "55\naa",
             "local": false,
             "format": 10
@@ -275,8 +275,8 @@
           "id": "32f32094-14c6-403e-81b1-fedecccdb0d3",
           "type": "2107ac7691a91a762c2d0be100faaabd6189973a",
           "position": {
-            "x": 1056,
-            "y": 472
+            "x": 1088,
+            "y": 512
           },
           "size": {
             "width": 96,
@@ -293,6 +293,38 @@
           "size": {
             "width": 96,
             "height": 160
+          }
+        },
+        {
+          "id": "d3ecacb3-80ab-4bdc-a172-c65b8a5d2b60",
+          "type": "basic.info",
+          "data": {
+            "info": "# Testing the Seq machine  \n\nWhen the button is pressed, the contents of  \nthe memory are displayed in the leds,  \nsequentially, starting from the 0 address  \n\nThe time between values is 400 ms",
+            "readonly": true
+          },
+          "position": {
+            "x": 864,
+            "y": 176
+          },
+          "size": {
+            "width": 344,
+            "height": 144
+          }
+        },
+        {
+          "id": "e6a31f82-9da1-4975-ad22-67429ec0567c",
+          "type": "basic.info",
+          "data": {
+            "info": "Press the button for  \nstarting the sequence on  \nthe LEDs  ",
+            "readonly": true
+          },
+          "position": {
+            "x": 960,
+            "y": 440
+          },
+          "size": {
+            "width": 224,
+            "height": 64
           }
         }
       ],
@@ -360,8 +392,8 @@
           },
           "vertices": [
             {
-              "x": 1224,
-              "y": 472
+              "x": 1256,
+              "y": 512
             }
           ]
         },
