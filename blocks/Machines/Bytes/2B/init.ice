@@ -25,38 +25,6 @@
           }
         },
         {
-          "id": "7fb933a6-5c63-4d46-8aaa-440b30974993",
-          "type": "basic.input",
-          "data": {
-            "name": "",
-            "clock": true
-          },
-          "position": {
-            "x": -32,
-            "y": -144
-          }
-        },
-        {
-          "id": "2c31aa6a-383c-4eb5-b669-b8a31ad14225",
-          "type": "basic.inputLabel",
-          "data": {
-            "blockColor": "yellow",
-            "name": "clk",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
-          },
-          "position": {
-            "x": 112,
-            "y": -144
-          }
-        },
-        {
           "id": "40e3c20c-5598-44a1-b5b4-760dba97d882",
           "type": "basic.outputLabel",
           "data": {
@@ -100,12 +68,43 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "wr",
-            "oldBlockColor": "fuchsia",
-            "virtual": true
+            "oldBlockColor": "fuchsia"
           },
           "position": {
             "x": 856,
             "y": 24
+          }
+        },
+        {
+          "id": "7fb933a6-5c63-4d46-8aaa-440b30974993",
+          "type": "basic.input",
+          "data": {
+            "name": "",
+            "clock": true
+          },
+          "position": {
+            "x": -88,
+            "y": 112
+          }
+        },
+        {
+          "id": "2c31aa6a-383c-4eb5-b669-b8a31ad14225",
+          "type": "basic.inputLabel",
+          "data": {
+            "blockColor": "yellow",
+            "name": "clk",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 56,
+            "y": 112
           }
         },
         {
@@ -497,8 +496,7 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "wr",
-            "oldBlockColor": "fuchsia",
-            "virtual": true
+            "oldBlockColor": "fuchsia"
           },
           "position": {
             "x": 1616,
@@ -668,8 +666,7 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "addr",
-            "oldBlockColor": "fuchsia",
-            "virtual": true
+            "oldBlockColor": "fuchsia"
           },
           "position": {
             "x": 1560,
@@ -682,8 +679,7 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "wr",
-            "oldBlockColor": "fuchsia",
-            "virtual": true
+            "oldBlockColor": "fuchsia"
           },
           "position": {
             "x": 656,
@@ -986,7 +982,7 @@
           "id": "e0ace7c0-caa0-440e-9868-d76ffb18bfb2",
           "type": "basic.info",
           "data": {
-            "info": "Reading machine",
+            "info": "count machine",
             "readonly": true
           },
           "position": {
@@ -1080,6 +1076,22 @@
           "size": {
             "width": 96,
             "height": 64
+          }
+        },
+        {
+          "id": "ad590a72-7112-428f-90e6-6bf82850a13a",
+          "type": "basic.info",
+          "data": {
+            "info": "## Init machine\n\nInitilize the memory starting from the address 0. The first value written   \nis the ini parameter. Then, it is incremented by 1 and  \nwritten in the following address:\n\n0: ini  \n1: ini+1  \n2: ini+2  \n3: init+3  \n...\n",
+            "readonly": true
+          },
+          "position": {
+            "x": -88,
+            "y": -160
+          },
+          "size": {
+            "width": 648,
+            "height": 176
           }
         }
       ],
