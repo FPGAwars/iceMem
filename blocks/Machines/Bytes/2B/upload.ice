@@ -25,38 +25,6 @@
           }
         },
         {
-          "id": "7fb933a6-5c63-4d46-8aaa-440b30974993",
-          "type": "basic.input",
-          "data": {
-            "name": "",
-            "clock": true
-          },
-          "position": {
-            "x": -32,
-            "y": -144
-          }
-        },
-        {
-          "id": "2c31aa6a-383c-4eb5-b669-b8a31ad14225",
-          "type": "basic.inputLabel",
-          "data": {
-            "blockColor": "yellow",
-            "name": "clk",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
-          },
-          "position": {
-            "x": 112,
-            "y": -144
-          }
-        },
-        {
           "id": "40e3c20c-5598-44a1-b5b4-760dba97d882",
           "type": "basic.outputLabel",
           "data": {
@@ -100,8 +68,7 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "wr",
-            "oldBlockColor": "fuchsia",
-            "virtual": true
+            "oldBlockColor": "fuchsia"
           },
           "position": {
             "x": 856,
@@ -146,6 +113,38 @@
           "position": {
             "x": 1112,
             "y": 120
+          }
+        },
+        {
+          "id": "7fb933a6-5c63-4d46-8aaa-440b30974993",
+          "type": "basic.input",
+          "data": {
+            "name": "",
+            "clock": true
+          },
+          "position": {
+            "x": -216,
+            "y": 136
+          }
+        },
+        {
+          "id": "2c31aa6a-383c-4eb5-b669-b8a31ad14225",
+          "type": "basic.inputLabel",
+          "data": {
+            "blockColor": "yellow",
+            "name": "clk",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": -72,
+            "y": 136
           }
         },
         {
@@ -407,55 +406,8 @@
           "data": {
             "name": "stdin",
             "range": "[8:0]",
-            "pins": [
-              {
-                "index": "8",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "7",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "6",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "5",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "4",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": false,
-            "clock": false
+            "clock": false,
+            "size": 9
           },
           "position": {
             "x": -208,
@@ -599,8 +551,7 @@
           "type": "basic.input",
           "data": {
             "name": "stop",
-            "clock": false,
-            "virtual": false
+            "clock": false
           },
           "position": {
             "x": -216,
@@ -677,8 +628,7 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "wr",
-            "oldBlockColor": "fuchsia",
-            "virtual": true
+            "oldBlockColor": "fuchsia"
           },
           "position": {
             "x": 1592,
@@ -724,8 +674,7 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "stop",
-            "oldBlockColor": "fuchsia",
-            "virtual": true
+            "oldBlockColor": "fuchsia"
           },
           "position": {
             "x": 800,
@@ -757,20 +706,6 @@
           }
         },
         {
-          "id": "f1609fbc-a924-4ff5-a838-4812ce9c7f2c",
-          "type": "basic.outputLabel",
-          "data": {
-            "blockColor": "fuchsia",
-            "name": "addr",
-            "oldBlockColor": "fuchsia",
-            "virtual": true
-          },
-          "position": {
-            "x": 1560,
-            "y": 928
-          }
-        },
-        {
           "id": "0f100c37-a2b6-4a7e-82ca-011d22b30b94",
           "type": "basic.outputLabel",
           "data": {
@@ -788,8 +723,7 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "wr",
-            "oldBlockColor": "fuchsia",
-            "virtual": true
+            "oldBlockColor": "fuchsia"
           },
           "position": {
             "x": 656,
@@ -1033,7 +967,7 @@
           "id": "e0ace7c0-caa0-440e-9868-d76ffb18bfb2",
           "type": "basic.info",
           "data": {
-            "info": "Reading machine",
+            "info": "Count machine",
             "readonly": true
           },
           "position": {
@@ -1115,6 +1049,22 @@
           "size": {
             "width": 96,
             "height": 64
+          }
+        },
+        {
+          "id": "ae2e3acd-1c86-422d-9c4e-4184a46e6631",
+          "type": "basic.info",
+          "data": {
+            "info": "## upload machine\n\nWrite data into the memory. The data is taken from the serial port. Once the  \nmemory is full, the machine is done\n",
+            "readonly": true
+          },
+          "position": {
+            "x": -192,
+            "y": -96
+          },
+          "size": {
+            "width": 592,
+            "height": 104
           }
         }
       ],
