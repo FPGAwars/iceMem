@@ -67,60 +67,8 @@
             "blockColor": "fuchsia",
             "name": "stdo_o",
             "range": "[9:0]",
-            "pins": [
-              {
-                "index": "9",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "8",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "7",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "6",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "5",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "4",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
-            "oldBlockColor": "fuchsia"
+            "oldBlockColor": "fuchsia",
+            "size": 10
           },
           "position": {
             "x": 2800,
@@ -412,65 +360,8 @@
           "data": {
             "name": "mbo",
             "range": "[10:0]",
-            "pins": [
-              {
-                "index": "10",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "9",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "8",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "7",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "6",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "5",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "4",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
-            "blockColor": "fuchsia"
+            "blockColor": "fuchsia",
+            "size": 11
           },
           "position": {
             "x": 2800,
@@ -867,15 +758,7 @@
           "type": "basic.outputLabel",
           "data": {
             "blockColor": "fuchsia",
-            "name": "print_table",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true
+            "name": "print_table"
           },
           "position": {
             "x": 1312,
@@ -888,8 +771,7 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "print",
-            "oldBlockColor": "fuchsia",
-            "virtual": true
+            "oldBlockColor": "fuchsia"
           },
           "position": {
             "x": 1712,
@@ -1158,13 +1040,13 @@
           "id": "227d7c3f-2e2c-4a79-891e-d41e39dc119a",
           "type": "basic.constant",
           "data": {
-            "name": "",
+            "name": "Heather",
             "value": "\"\\n| Addr | Data |\\n|------|------|\\n\"",
             "local": true
           },
           "position": {
             "x": 1520,
-            "y": 392
+            "y": 416
           }
         },
         {
@@ -1354,7 +1236,7 @@
           "id": "b62ad9b4-5b0e-4b74-a0ad-947946a59331",
           "type": "basic.info",
           "data": {
-            "info": "This circuits wants  \nto use the bus",
+            "info": "This circuit wants  \nto use the bus",
             "readonly": true
           },
           "position": {
@@ -1458,7 +1340,7 @@
           "id": "e0ace7c0-caa0-440e-9868-d76ffb18bfb2",
           "type": "basic.info",
           "data": {
-            "info": "Reading machine",
+            "info": "count machine",
             "readonly": true
           },
           "position": {
@@ -1564,6 +1446,38 @@
           "size": {
             "width": 96,
             "height": 128
+          }
+        },
+        {
+          "id": "8519994c-aba5-452f-af1f-6cf41865a7a9",
+          "type": "basic.info",
+          "data": {
+            "info": "## Print each entry of the table",
+            "readonly": true
+          },
+          "position": {
+            "x": 1648,
+            "y": 312
+          },
+          "size": {
+            "width": 360,
+            "height": 56
+          }
+        },
+        {
+          "id": "ff9d52fc-6867-4c4d-86e5-3bf727f7c382",
+          "type": "basic.info",
+          "data": {
+            "info": "## Dump machine\n\nDump the contents of the memory to the serial port  \nThe data is shown in Hexadecimal ASCII\n\nExample:\n\n```\n| Addr | Data |\n|------|------|\n| 0    | 55   |\n| 1    | AA   |\n```\n...\n",
+            "readonly": true
+          },
+          "position": {
+            "x": -32,
+            "y": -320
+          },
+          "size": {
+            "width": 648,
+            "height": 176
           }
         }
       ],
