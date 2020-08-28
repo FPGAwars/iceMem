@@ -13,51 +13,11 @@
     "graph": {
       "blocks": [
         {
-          "id": "7fb933a6-5c63-4d46-8aaa-440b30974993",
-          "type": "basic.input",
-          "data": {
-            "name": "",
-            "clock": true
-          },
-          "position": {
-            "x": -32,
-            "y": -144
-          }
-        },
-        {
-          "id": "2c31aa6a-383c-4eb5-b669-b8a31ad14225",
-          "type": "basic.inputLabel",
-          "data": {
-            "blockColor": "yellow",
-            "name": "clk",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
-          },
-          "position": {
-            "x": 112,
-            "y": -144
-          }
-        },
-        {
           "id": "eb30affa-eb3e-4e1c-a612-65784165ec7b",
           "type": "basic.outputLabel",
           "data": {
             "blockColor": "navy",
             "name": "addr",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
@@ -109,19 +69,43 @@
           "data": {
             "blockColor": "navy",
             "name": "wr",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
             "x": 864,
             "y": 24
+          }
+        },
+        {
+          "id": "7fb933a6-5c63-4d46-8aaa-440b30974993",
+          "type": "basic.input",
+          "data": {
+            "name": "",
+            "clock": true
+          },
+          "position": {
+            "x": -88,
+            "y": 112
+          }
+        },
+        {
+          "id": "2c31aa6a-383c-4eb5-b669-b8a31ad14225",
+          "type": "basic.inputLabel",
+          "data": {
+            "blockColor": "yellow",
+            "name": "clk",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 56,
+            "y": 112
           }
         },
         {
@@ -508,49 +492,7 @@
             "blockColor": "fuchsia",
             "name": "A",
             "range": "[7:0]",
-            "pins": [
-              {
-                "index": "7",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "6",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "5",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "4",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
+            "size": 8
           },
           "position": {
             "x": 984,
@@ -632,49 +574,7 @@
             "blockColor": "fuchsia",
             "name": "data",
             "range": "[7:0]",
-            "pins": [
-              {
-                "index": "7",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "6",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "5",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "4",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
+            "size": 8
           },
           "position": {
             "x": 1688,
@@ -744,49 +644,7 @@
             "blockColor": "fuchsia",
             "name": "dmem",
             "range": "[7:0]",
-            "pins": [
-              {
-                "index": "7",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "6",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "5",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "4",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
+            "size": 8
           },
           "position": {
             "x": 992,
@@ -799,14 +657,6 @@
           "data": {
             "blockColor": "navy",
             "name": "ldA",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "navy"
           },
           "position": {
@@ -821,49 +671,7 @@
             "blockColor": "fuchsia",
             "name": "dmem",
             "range": "[7:0]",
-            "pins": [
-              {
-                "index": "7",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "6",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "5",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "4",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
+            "size": 8
           },
           "position": {
             "x": 992,
@@ -888,14 +696,6 @@
           "data": {
             "blockColor": "navy",
             "name": "add",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "navy"
           },
           "position": {
@@ -1035,15 +835,7 @@
           "type": "basic.outputLabel",
           "data": {
             "blockColor": "fuchsia",
-            "name": "next",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true
+            "name": "next"
           },
           "position": {
             "x": 408,
@@ -1076,15 +868,7 @@
           "type": "basic.outputLabel",
           "data": {
             "blockColor": "fuchsia",
-            "name": "busy",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true
+            "name": "busy"
           },
           "position": {
             "x": 960,
@@ -1497,6 +1281,102 @@
           "size": {
             "width": 96,
             "height": 128
+          }
+        },
+        {
+          "id": "97e4db30-9824-4bbd-8078-8efd72df5b33",
+          "type": "basic.info",
+          "data": {
+            "info": "## Test-acc machine \n\nMachine for calculate the operation M0 = M0 + M1, where  \nM0 and M1 are the data located at addresses 0 and 1  \nrespectivelly\n\nThe Architecture of this machine is divided into:\n* Datapath  \n* Controller\n\nThe controller has been implemented using µinstructions",
+            "readonly": true
+          },
+          "position": {
+            "x": -80,
+            "y": -168
+          },
+          "size": {
+            "width": 704,
+            "height": 192
+          }
+        },
+        {
+          "id": "3206f0b7-3e50-4a76-a266-57752053ac95",
+          "type": "basic.info",
+          "data": {
+            "info": "Accumulator register",
+            "readonly": true
+          },
+          "position": {
+            "x": 1872,
+            "y": 640
+          },
+          "size": {
+            "width": 192,
+            "height": 40
+          }
+        },
+        {
+          "id": "2713b7a0-47c2-4675-b41a-99427c6b2961",
+          "type": "basic.info",
+          "data": {
+            "info": "µcmd: loading the register A",
+            "readonly": true
+          },
+          "position": {
+            "x": 1728,
+            "y": 872
+          },
+          "size": {
+            "width": 240,
+            "height": 40
+          }
+        },
+        {
+          "id": "d911828e-6649-4523-8775-eb1bf703f1ea",
+          "type": "basic.info",
+          "data": {
+            "info": "µcmd: Add A to the current data  \nfrom memory",
+            "readonly": true
+          },
+          "position": {
+            "x": 1232,
+            "y": 936
+          },
+          "size": {
+            "width": 296,
+            "height": 48
+          }
+        },
+        {
+          "id": "43072ec4-4156-4f38-8333-d83b6ee5c20b",
+          "type": "basic.info",
+          "data": {
+            "info": "µcmds generation",
+            "readonly": true
+          },
+          "position": {
+            "x": 1632,
+            "y": 1248
+          },
+          "size": {
+            "width": 144,
+            "height": 40
+          }
+        },
+        {
+          "id": "b0f9b6a7-0542-42c3-92c0-7e35d386888b",
+          "type": "basic.info",
+          "data": {
+            "info": "Count machine: it reads sequentially the  \ntable with the µinstructions",
+            "readonly": true
+          },
+          "position": {
+            "x": 400,
+            "y": 1408
+          },
+          "size": {
+            "width": 320,
+            "height": 48
           }
         }
       ],
