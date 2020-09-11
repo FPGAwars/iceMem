@@ -1,7 +1,7 @@
 {
   "version": "1.2",
   "package": {
-    "name": "Memory-23B",
+    "name": "Memory-64B",
     "version": "1.0",
     "description": "64 Bytes Synchronous memory",
     "author": "Juan González-Gómez (Obijuan)",
@@ -29,40 +29,8 @@
           "data": {
             "name": "addr",
             "range": "[5:0]",
-            "pins": [
-              {
-                "index": "5",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "4",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": false,
-            "clock": false
+            "clock": false,
+            "size": 6
           },
           "position": {
             "x": 120,
