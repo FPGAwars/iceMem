@@ -762,6 +762,38 @@
             "width": 144,
             "height": 40
           }
+        },
+        {
+          "id": "7f441c7c-b483-4875-bbb1-a0be5cca4d00",
+          "type": "basic.info",
+          "data": {
+            "info": "## Web panel for testing\n\nFor testing this example upload it to the  \nFPGA and connect to the [Test WEB panel](https://fpgawars.github.io/LOVE-FPGA/Releases/v0.1.0/CT9/panel.html)  \n(You should use a Browser that support **Webserial**, like **Chromium** or **Chrome**)  \nYou do not need to install anything. Just the browser\n\n[Panel Image](https://raw.githubusercontent.com/Obijuan/Cuadernos-tecnicos-FPGAs-libres/master/wiki/CT9-Memorias/Reg-2bits-07.png)\n\n![](https://raw.githubusercontent.com/Obijuan/Cuadernos-tecnicos-FPGAs-libres/master/wiki/CT9-Memorias/Reg-2bits-07.png)",
+            "readonly": true
+          },
+          "position": {
+            "x": 1192,
+            "y": -456
+          },
+          "size": {
+            "width": 904,
+            "height": 328
+          }
+        },
+        {
+          "id": "590adfb8-f237-46e1-aea3-109075b185f2",
+          "type": "basic.info",
+          "data": {
+            "info": "## Youtube Video\n\n[Link](https://www.youtube.com/watch?v=vd2wBs9Z__0)\n\n[![Click to see the youtube video](http://img.youtube.com/vi/vd2wBs9Z__0/0.jpg)](https://www.youtube.com/watch?v=vd2wBs9Z__0)",
+            "readonly": true
+          },
+          "position": {
+            "x": -432,
+            "y": 440
+          },
+          "size": {
+            "width": 504,
+            "height": 216
+          }
         }
       ],
       "wires": [
