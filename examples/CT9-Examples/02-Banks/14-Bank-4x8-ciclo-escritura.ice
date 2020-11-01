@@ -833,7 +833,7 @@
           "id": "46fd7cd9-7f53-4f59-ba98-eeadb24fd3c2",
           "type": "basic.info",
           "data": {
-            "info": "## Ejemplo 15: Measuring write cycles of an 8x8 register bank\n\nWhen the pushbutton SW1 is pressed, the capture and the 3-bits count machine are started\nIn total, 8 memory cycles are generated. The first 4 are write cycles and the next 4 are  \nread cycles. The most significant bit of the counter is used as the write signal.\nFive signals are captured: trig, addr, write, din and dout\nThe data are received by the Icerok Plug-in and shown in the Pulseview application\n",
+            "info": "## Example 14: Measuring write cycles of an 8x8 register bank\n\nWhen the pushbutton SW1 is pressed, the capture and the 3-bits count machine are started\nIn total, 8 memory cycles are generated. The first 4 are write cycles and the next 4 are  \nread cycles. The most significant bit of the counter is used as the write signal.\nFive signals are captured: trig, addr, write, din and dout\nThe data are received by the Icerok Plug-in and shown in the Pulseview application\n",
             "readonly": true
           },
           "position": {
