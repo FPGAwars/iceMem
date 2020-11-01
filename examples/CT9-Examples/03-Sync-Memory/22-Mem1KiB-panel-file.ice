@@ -861,24 +861,6 @@
           }
         },
         {
-          "id": "2b64ee66-9642-44a0-8dce-1de58448d986",
-          "type": "basic.memory",
-          "data": {
-            "name": "Contents",
-            "list": "\n@100 AA //-- Dir. 0x100\n@300 55 //-- Dir. 0x300",
-            "local": false,
-            "format": 10
-          },
-          "position": {
-            "x": 320,
-            "y": -328
-          },
-          "size": {
-            "width": 272,
-            "height": 112
-          }
-        },
-        {
           "id": "00afa7b4-c846-411a-ae9f-a3d7c64b4ae8",
           "type": "basic.constant",
           "data": {
@@ -889,6 +871,19 @@
           "position": {
             "x": 336,
             "y": -800
+          }
+        },
+        {
+          "id": "6cef1191-41a7-4f01-8dad-242cd1e97109",
+          "type": "basic.constant",
+          "data": {
+            "name": "File",
+            "value": "\"EX22.list\"",
+            "local": false
+          },
+          "position": {
+            "x": 368,
+            "y": -288
           }
         },
         {
@@ -1181,16 +1176,16 @@
           "id": "2bf23ef8-e0d9-4c5c-8ee2-1fade460e857",
           "type": "basic.info",
           "data": {
-            "info": "## Example 21: Testing the 1KiB sync memory from a web panel\n\nThe virtual switches \"s\" - \"t\" and \"a\"-\"h\" (10 bits) are used to enter the memory address  \nThe virtual swithces \"A\"-\"H\" are used to enter the input data, the one we can to write into memory  \nWith the virtual pushbutton \"Q\" the input data is written into the memory at the current address",
+            "info": "## Example 22: 1KiB Memory initialization from a file\n\nSame example than 21, but the memory is initialized from the **Ex22.list** file\n\nThe virtual switches \"s\" - \"t\" and \"a\"-\"h\" (10 bits) are used to enter the memory address  \nThe virtual swithces \"A\"-\"H\" are used to enter the input data, the one we can to write into memory  \nWith the virtual pushbutton \"Q\" the input data is written into the memory at the current address",
             "readonly": true
           },
           "position": {
-            "x": -80,
-            "y": -1016
+            "x": -264,
+            "y": -1032
           },
           "size": {
-            "width": 832,
-            "height": 120
+            "width": 840,
+            "height": 160
           }
         },
         {
@@ -1203,22 +1198,6 @@
           "size": {
             "width": 256,
             "height": 96
-          }
-        },
-        {
-          "id": "52a2dc71-6ee2-4707-b97c-0e4b83cdbf50",
-          "type": "basic.info",
-          "data": {
-            "info": "### Memory output",
-            "readonly": true
-          },
-          "position": {
-            "x": 984,
-            "y": -280
-          },
-          "size": {
-            "width": 472,
-            "height": 48
           }
         },
         {
@@ -1294,15 +1273,47 @@
           }
         },
         {
-          "id": "696774d0-93d5-479a-82eb-1efb81123950",
+          "id": "6473e072-e2e0-4c42-9e5c-b05f4db34577",
+          "type": "basic.info",
+          "data": {
+            "info": "Memory initialized from  \nthe \"EX22.list\" file",
+            "readonly": true
+          },
+          "position": {
+            "x": 360,
+            "y": -368
+          },
+          "size": {
+            "width": 232,
+            "height": 48
+          }
+        },
+        {
+          "id": "edfe2f5c-4bf5-4115-b620-4ebe1a36f6d7",
+          "type": "basic.info",
+          "data": {
+            "info": "This file should be in the same  \nfolder than the icestudio circuit\n(.ice file)",
+            "readonly": true
+          },
+          "position": {
+            "x": 488,
+            "y": -288
+          },
+          "size": {
+            "width": 320,
+            "height": 72
+          }
+        },
+        {
+          "id": "72fd2b66-9dc1-4902-b1ad-4374ef640667",
           "type": "basic.info",
           "data": {
             "info": "### Current Address",
             "readonly": true
           },
           "position": {
-            "x": 168,
-            "y": -848
+            "x": 368,
+            "y": -864
           },
           "size": {
             "width": 472,
@@ -1310,15 +1321,15 @@
           }
         },
         {
-          "id": "5c6ef11f-6ce0-4a19-a90c-e3cf2f7223f2",
+          "id": "965f14bf-69b2-4f2f-8603-bcbb868d0686",
           "type": "basic.info",
           "data": {
             "info": "### Input Data",
             "readonly": true
           },
           "position": {
-            "x": 1288,
-            "y": -872
+            "x": 1256,
+            "y": -848
           },
           "size": {
             "width": 256,
@@ -1326,30 +1337,14 @@
           }
         },
         {
-          "id": "1497854c-430c-48f1-809e-ca1271f52b3d",
-          "type": "basic.info",
-          "data": {
-            "info": "The memory output is also  \ndisplayed on the real LEDs",
-            "readonly": true
-          },
-          "position": {
-            "x": 1416,
-            "y": -312
-          },
-          "size": {
-            "width": 224,
-            "height": 48
-          }
-        },
-        {
-          "id": "69f485b7-aa14-4aa0-92a6-531184153a2f",
+          "id": "cdee4d26-1d12-4480-8560-c4ec664775d3",
           "type": "basic.info",
           "data": {
             "info": "Write the data",
             "readonly": true
           },
           "position": {
-            "x": 864,
+            "x": 872,
             "y": -744
           },
           "size": {
@@ -1358,14 +1353,14 @@
           }
         },
         {
-          "id": "7a42526a-9b85-4741-84c2-1fed482064f6",
+          "id": "fee38cde-e663-4c55-906f-ed451cff12ed",
           "type": "basic.info",
           "data": {
             "info": "For testing purposes the position 0x100 is initialized  \nwith the value 0xAA and the position 0x300 with 0x55.  \nAll the rest positions contain 0",
             "readonly": true
           },
           "position": {
-            "x": -112,
+            "x": -96,
             "y": -304
           },
           "size": {
@@ -1374,35 +1369,35 @@
           }
         },
         {
-          "id": "952c365f-7f3e-4ac6-b9b0-7f296c89f3c0",
+          "id": "543f9f72-edf2-4c91-9abb-c545a6182831",
           "type": "basic.info",
           "data": {
-            "info": "## Youtube Video\n\n[Link](https://www.youtube.com/watch?v=DqZmmisI9n8)\n\n[![Click to see the youtube video](http://img.youtube.com/vi/DqZmmisI9n8/0.jpg)](https://www.youtube.com/watch?v=DqZmmisI9n8)",
+            "info": "### Memory output",
             "readonly": true
           },
           "position": {
-            "x": 56,
-            "y": 128
+            "x": 1000,
+            "y": -280
           },
           "size": {
-            "width": 504,
-            "height": 216
+            "width": 472,
+            "height": 48
           }
         },
         {
-          "id": "915fe312-04b4-45af-865e-cfd57f71c3ae",
+          "id": "644f00e6-f1b0-4e44-9a94-a0bb33d711af",
           "type": "basic.info",
           "data": {
-            "info": "## Web panel for testing\n\nFor testing this example upload it to the  \nFPGA and connect to the [Test WEB panel](https://fpgawars.github.io/LOVE-FPGA/Releases/v0.1.0/CT9/panel.html)  \n(You should use a Browser that support **Webserial**, like **Chromium** or **Chrome**)  \nYou do not need to install anything. Just the browser\n\n[Panel Image](https://raw.githubusercontent.com/Obijuan/Cuadernos-tecnicos-FPGAs-libres/master/wiki/CT9-Memorias/Smem-14.png)\n\n![](https://raw.githubusercontent.com/Obijuan/Cuadernos-tecnicos-FPGAs-libres/master/wiki/CT9-Memorias/Smem-14.png)",
+            "info": "The memory output is also  \ndisplayed on the real LEDs",
             "readonly": true
           },
           "position": {
-            "x": 1904,
-            "y": -992
+            "x": 1464,
+            "y": -296
           },
           "size": {
-            "width": 904,
-            "height": 328
+            "width": 224,
+            "height": 48
           }
         }
       ],
@@ -1426,6 +1421,125 @@
           "target": {
             "block": "adf41735-306a-40b6-affa-e2c8c4a18e32",
             "port": "248e7e64-2cbf-4e0b-95b9-c084ea8b4c13"
+          },
+          "size": 8
+        },
+        {
+          "source": {
+            "block": "bcab702e-2cf4-4e1e-98ce-bfc49f3042b3",
+            "port": "2f18358c-ebaa-4fbf-99b4-610ab78deed2"
+          },
+          "target": {
+            "block": "b251e258-34c2-4890-b471-0a3b17f94596",
+            "port": "inlabel"
+          },
+          "size": 8
+        },
+        {
+          "source": {
+            "block": "105473ea-b6f3-42f1-98e4-774027e6b784",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "bcab702e-2cf4-4e1e-98ce-bfc49f3042b3",
+            "port": "9931384a-74ee-4de4-9df7-cc04fd19cf46"
+          },
+          "size": 8
+        },
+        {
+          "source": {
+            "block": "8e529799-c789-49a7-8770-e984623bb775",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "bcab702e-2cf4-4e1e-98ce-bfc49f3042b3",
+            "port": "c61902b3-38ce-45bf-98c9-322638c2264b"
+          }
+        },
+        {
+          "source": {
+            "block": "b6773ed4-b977-41b9-959e-9040f5fbb5a1",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "adf41735-306a-40b6-affa-e2c8c4a18e32",
+            "port": "463d4c61-e971-4525-8f3d-98928db6f437"
+          },
+          "size": 18
+        },
+        {
+          "source": {
+            "block": "04e3f87a-0138-44a6-8d65-13f1f70f9d4d",
+            "port": "ec99b1dc-4c72-4deb-9bcf-d91bda37abe4"
+          },
+          "target": {
+            "block": "d7c095c5-27e4-41b5-99fe-8ea4d3c5c637",
+            "port": "inlabel"
+          },
+          "size": 2
+        },
+        {
+          "source": {
+            "block": "914bee68-1d81-469f-a601-2d8365c80f46",
+            "port": "d35f6717-7966-4599-afe9-640bc9344f34"
+          },
+          "target": {
+            "block": "7d8bd95a-9745-4e37-bf4d-a504a89220e9",
+            "port": "inlabel"
+          },
+          "size": 8
+        },
+        {
+          "source": {
+            "block": "e929d191-0f93-4458-9d6f-4ba18d7c2a4d",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "1550a995-03f7-4f04-96b5-ae6d06ecbb3e",
+            "port": "3626259f-60dd-47d8-bbce-56b750dd45dc"
+          },
+          "size": 8
+        },
+        {
+          "source": {
+            "block": "4bd4fcae-f318-4a0f-ac63-d91a78da8fae",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "1550a995-03f7-4f04-96b5-ae6d06ecbb3e",
+            "port": "0a460618-c59d-4eb4-b2ef-802f572c382f"
+          },
+          "size": 2
+        },
+        {
+          "source": {
+            "block": "9e410417-af4d-4eec-999d-6d1e070f1ff9",
+            "port": "5c4513fa-3df8-4e75-a16a-968e49322325"
+          },
+          "target": {
+            "block": "1fa47a56-fc2e-42bb-b646-ecd885e26162",
+            "port": "inlabel"
+          }
+        },
+        {
+          "source": {
+            "block": "7477102b-102f-42bb-b3f9-1a419d4463ce",
+            "port": "d35f6717-7966-4599-afe9-640bc9344f34"
+          },
+          "target": {
+            "block": "5ff48c65-0fce-4e51-9764-4e4cb674eb9a",
+            "port": "inlabel"
+          },
+          "size": 8
+        },
+        {
+          "source": {
+            "block": "f3431382-0cf2-4d3a-9d0e-662de15b7166",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "50a6b59e-45c5-4386-946a-1030f6f6e841",
+            "port": "in"
           },
           "size": 8
         },
@@ -1554,49 +1668,6 @@
             "block": "adf41735-306a-40b6-affa-e2c8c4a18e32",
             "port": "efb790a2-0828-4d3f-84bf-4a9352a60228"
           }
-        },
-        {
-          "source": {
-            "block": "bcab702e-2cf4-4e1e-98ce-bfc49f3042b3",
-            "port": "2f18358c-ebaa-4fbf-99b4-610ab78deed2"
-          },
-          "target": {
-            "block": "b251e258-34c2-4890-b471-0a3b17f94596",
-            "port": "inlabel"
-          },
-          "size": 8
-        },
-        {
-          "source": {
-            "block": "105473ea-b6f3-42f1-98e4-774027e6b784",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "bcab702e-2cf4-4e1e-98ce-bfc49f3042b3",
-            "port": "9931384a-74ee-4de4-9df7-cc04fd19cf46"
-          },
-          "size": 8
-        },
-        {
-          "source": {
-            "block": "8e529799-c789-49a7-8770-e984623bb775",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "bcab702e-2cf4-4e1e-98ce-bfc49f3042b3",
-            "port": "c61902b3-38ce-45bf-98c9-322638c2264b"
-          }
-        },
-        {
-          "source": {
-            "block": "b6773ed4-b977-41b9-959e-9040f5fbb5a1",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "adf41735-306a-40b6-affa-e2c8c4a18e32",
-            "port": "463d4c61-e971-4525-8f3d-98928db6f437"
-          },
-          "size": 18
         },
         {
           "source": {
@@ -1759,28 +1830,6 @@
         },
         {
           "source": {
-            "block": "04e3f87a-0138-44a6-8d65-13f1f70f9d4d",
-            "port": "ec99b1dc-4c72-4deb-9bcf-d91bda37abe4"
-          },
-          "target": {
-            "block": "d7c095c5-27e4-41b5-99fe-8ea4d3c5c637",
-            "port": "inlabel"
-          },
-          "size": 2
-        },
-        {
-          "source": {
-            "block": "914bee68-1d81-469f-a601-2d8365c80f46",
-            "port": "d35f6717-7966-4599-afe9-640bc9344f34"
-          },
-          "target": {
-            "block": "7d8bd95a-9745-4e37-bf4d-a504a89220e9",
-            "port": "inlabel"
-          },
-          "size": 8
-        },
-        {
-          "source": {
             "block": "1550a995-03f7-4f04-96b5-ae6d06ecbb3e",
             "port": "047e6936-4378-4319-bc89-0d8c54b65f00"
           },
@@ -1795,28 +1844,6 @@
             }
           ],
           "size": 10
-        },
-        {
-          "source": {
-            "block": "e929d191-0f93-4458-9d6f-4ba18d7c2a4d",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "1550a995-03f7-4f04-96b5-ae6d06ecbb3e",
-            "port": "3626259f-60dd-47d8-bbce-56b750dd45dc"
-          },
-          "size": 8
-        },
-        {
-          "source": {
-            "block": "4bd4fcae-f318-4a0f-ac63-d91a78da8fae",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "1550a995-03f7-4f04-96b5-ae6d06ecbb3e",
-            "port": "0a460618-c59d-4eb4-b2ef-802f572c382f"
-          },
-          "size": 2
         },
         {
           "source": {
@@ -1837,16 +1864,6 @@
           "target": {
             "block": "9e410417-af4d-4eec-999d-6d1e070f1ff9",
             "port": "672c9096-9703-4da2-aa8e-743b1a7bb783"
-          }
-        },
-        {
-          "source": {
-            "block": "9e410417-af4d-4eec-999d-6d1e070f1ff9",
-            "port": "5c4513fa-3df8-4e75-a16a-968e49322325"
-          },
-          "target": {
-            "block": "1fa47a56-fc2e-42bb-b646-ecd885e26162",
-            "port": "inlabel"
           }
         },
         {
@@ -1969,17 +1986,6 @@
         },
         {
           "source": {
-            "block": "7477102b-102f-42bb-b3f9-1a419d4463ce",
-            "port": "d35f6717-7966-4599-afe9-640bc9344f34"
-          },
-          "target": {
-            "block": "5ff48c65-0fce-4e51-9764-4e4cb674eb9a",
-            "port": "inlabel"
-          },
-          "size": 8
-        },
-        {
-          "source": {
             "block": "9e410417-af4d-4eec-999d-6d1e070f1ff9",
             "port": "b6140fa0-ef53-4f1b-bcc8-631d1608d96c"
           },
@@ -1991,24 +1997,13 @@
         },
         {
           "source": {
-            "block": "2b64ee66-9642-44a0-8dce-1de58448d986",
-            "port": "memory-out"
+            "block": "6cef1191-41a7-4f01-8dad-242cd1e97109",
+            "port": "constant-out"
           },
           "target": {
             "block": "bcab702e-2cf4-4e1e-98ce-bfc49f3042b3",
             "port": "d80bfd80-1f6d-46af-b5de-5cd121ebe630"
           }
-        },
-        {
-          "source": {
-            "block": "f3431382-0cf2-4d3a-9d0e-662de15b7166",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "50a6b59e-45c5-4386-946a-1030f6f6e841",
-            "port": "in"
-          },
-          "size": 8
         }
       ]
     }

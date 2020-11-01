@@ -1185,8 +1185,8 @@
             "readonly": true
           },
           "position": {
-            "x": -264,
-            "y": -1032
+            "x": -80,
+            "y": -1016
           },
           "size": {
             "width": 832,
@@ -1371,6 +1371,38 @@
           "size": {
             "width": 416,
             "height": 88
+          }
+        },
+        {
+          "id": "952c365f-7f3e-4ac6-b9b0-7f296c89f3c0",
+          "type": "basic.info",
+          "data": {
+            "info": "## Youtube Video\n\n[Link](https://www.youtube.com/watch?v=DqZmmisI9n8)\n\n[![Click to see the youtube video](http://img.youtube.com/vi/DqZmmisI9n8/0.jpg)](https://www.youtube.com/watch?v=DqZmmisI9n8)",
+            "readonly": true
+          },
+          "position": {
+            "x": 56,
+            "y": 128
+          },
+          "size": {
+            "width": 504,
+            "height": 216
+          }
+        },
+        {
+          "id": "915fe312-04b4-45af-865e-cfd57f71c3ae",
+          "type": "basic.info",
+          "data": {
+            "info": "## Web panel for testing\n\nFor testing this example upload it to the  \nFPGA and connect to the [Test WEB panel](https://fpgawars.github.io/LOVE-FPGA/Releases/v0.1.0/CT9/panel.html)  \n(You should use a Browser that support **Webserial**, like **Chromium** or **Chrome**)  \nYou do not need to install anything. Just the browser\n\n[Panel Image](https://raw.githubusercontent.com/Obijuan/Cuadernos-tecnicos-FPGAs-libres/master/wiki/CT9-Memorias/Smem-14.png)\n\n![](https://raw.githubusercontent.com/Obijuan/Cuadernos-tecnicos-FPGAs-libres/master/wiki/CT9-Memorias/Smem-14.png)",
+            "readonly": true
+          },
+          "position": {
+            "x": 1904,
+            "y": -992
+          },
+          "size": {
+            "width": 904,
+            "height": 328
           }
         }
       ],
