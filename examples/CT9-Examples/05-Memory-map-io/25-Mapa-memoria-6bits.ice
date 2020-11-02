@@ -551,6 +551,38 @@
             "width": 624,
             "height": 216
           }
+        },
+        {
+          "id": "d317a771-0c70-402b-a99b-afd3277409e4",
+          "type": "basic.info",
+          "data": {
+            "info": "## Youtube Video\n\n[Link](https://www.youtube.com/watch?v=c_NIoVIzPew)\n\n[![Click to see the youtube video](http://img.youtube.com/vi/c_NIoVIzPew/0.jpg)](https://www.youtube.com/watch?v=c_NIoVIzPew)",
+            "readonly": true
+          },
+          "position": {
+            "x": -16,
+            "y": 304
+          },
+          "size": {
+            "width": 504,
+            "height": 216
+          }
+        },
+        {
+          "id": "6e69a741-e588-4848-b53c-dce412cef250",
+          "type": "basic.info",
+          "data": {
+            "info": "## Web panel for testing\n\nFor testing this example upload it to the  \nFPGA and connect to the [Test WEB panel](https://fpgawars.github.io/LOVE-FPGA/Releases/v0.1.0/CT9/panel.html)  \n(You should use a Browser that support **Webserial**, like **Chromium** or **Chrome**)  \nYou do not need to install anything. Just the browser\n\n[Panel Image](https://raw.githubusercontent.com/Obijuan/Cuadernos-tecnicos-FPGAs-libres/master/wiki/CT9-Memorias/map-io-04.png)\n\n![](https://raw.githubusercontent.com/Obijuan/Cuadernos-tecnicos-FPGAs-libres/master/wiki/CT9-Memorias/map-io-04.png)",
+            "readonly": true
+          },
+          "position": {
+            "x": 704,
+            "y": -304
+          },
+          "size": {
+            "width": 904,
+            "height": 328
+          }
         }
       ],
       "wires": [
