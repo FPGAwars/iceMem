@@ -133,6 +133,10 @@ Library of Memories and Registers.
     * *Blocks*
       * Reg
 * *SMemory*
+  * *01-bits*
+    * memory-512x1
+  * *17-bits*
+    * memory-512x17
   * *Bytes*
     * memory-002B
     * memory-004B
@@ -156,6 +160,55 @@ Library of Memories and Registers.
     * memory-16KiB
 
 ## Examples
+* *CT9-Examples*
+  * *01-Regs*
+    * 01-Reg-1bit-01
+    * 02-Reg-1bit-panel
+    * 03-Reg-2bits-01
+    * 04-Reg-2bits-panel
+  * *02-Banks*
+    * 05-Bank-2x1-01
+    * 06-Bank-2x1-panel
+    * 07-Bank-2x1-paralell-panel
+    * 08-Bank-8x1-01
+    * 09-Bank-8x1-panel
+    * 10-Bank-8x1-paralell-panel
+    * 11-Bank-8x8-leds
+    * 12-Bank-8x8-panel
+    * 13-Bank-8x8-read-cycle
+    * 14-Bank-4x8-write-cycle
+    * 15-Bank-4x8-read-write-cycle
+  * *03-Sync-Memory*
+    * 16-Mem16B-leds
+    * 17-Mem16B-panel
+    * 18-Smem-16B-read-cycle
+    * 19-Smem-16B-write-cycle
+    * 20-Smem-16B-read-write-cycles
+    * 21-Mem1KiB-panel
+    * 22-Mem1KiB-panel-file
+    * *ice-build*
+      * *21-Mem1KiB-panel*
+  * *04-Example-circuits*
+    * 23-Prog-sequence-LEDs
+    * 24-Mem-dump-increment
+    * *ice-build*
+      * *23-Prog-sequence-LEDs*
+      * *24-Volcado-incremento*
+  * *05-Memory-map-io*
+    * 25-1-Memory-map-6bits-ROM
+    * 25-2-Memory-map-6bits-ROM-RAM
+    * 25-3-Memory-map-6bits-ROM-RAM-OUTP
+    * 25-4-Memory-map-6bits-ROM-RAM-OUTP-INP
+    * 25-Memory-map-6bits
+    * *ice-build*
+      * *25-1-Memory-map-6bits-ROM*
+      * *25-2-Memory-map-6bits-ROM-RAM*
+      * *25-3-Memory-map-6bits-ROM-RAM-OUTP*
+      * *25-4-Memory-map-6bits-ROM-RAM-OUTP-INP*
+      * *25-Mapa-memoria-6bits*
+  * *ice-build*
+    * *20-Smem-16B-ciclo-escritura-lectura*
+    * *21-Mem1KiB-panel*
 * *TESTs*
   * *Banks*
     * *01-bit*
@@ -180,6 +233,8 @@ Library of Memories and Registers.
       * *Bank-8x8*
         * Reg-automatic-test
         * Reg-manual-test
+        * *ice-build*
+          * *Reg-manual-test*
   * *Machines*
     * *Bytes*
       * *002B*
@@ -242,7 +297,6 @@ Library of Memories and Registers.
     * *08-bits*
       * Reg-automatic-test
       * Reg-manual-test
-      * Reg-rst-manual-test
   * *SMem*
   * *SMem-bus*
     * *Bytes*
@@ -279,6 +333,8 @@ Library of Memories and Registers.
         * Smem-automatic-test
       * *512B*
         * Smem-automatic-test
+        * *ice-build*
+          * *Smem-automatic-test*
     * *KiB*
       * *01KiB*
         * Smem-automatic-test
