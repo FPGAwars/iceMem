@@ -1,61 +1,70 @@
+
+
 # iceMem Collection
 
-[![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
-![Version](https://img.shields.io/badge/version-v0.1.0-orange.svg)
+[![Icestudio][icestudio-image]][icestudio-url]
+![Version][version-image]
 
-Library of Memories and Registers.
 
-![](wiki/iceMem-logo.png)
+Library of Memories and Registers
+
+
+## License
+
+Licensed under [GPL-2.0](https://opensource.org/licenses/GPL-2.0).
 
 ## Install
 
-* Download the collection: [stable](https://github.com/FPGAwars/iceMem/archive/v0.1.0.zip) or [development](https://github.com/FPGAwars/iceMem/archive/master.zip)
+For installing and using this colection in Icestudio follow these steps:
+
+* Download the collection: [stable](https://github.com/FPGAwars/iceMem/archive/refs/tags/v0.1.0.zip) or [development](https://github.com/FPGAwars/iceMem/archive/refs/heads/master.zip)
 * Install the collection: *Tools > Collections > Add*
-* Load the collection: *Select > Collection*
+* Select the collection: *Select > Collection*
+
 
 ## Blocks
-* *Banks*
-  * *01-bit-regs*
+* **Banks**
+  * **01-bit-regs**
     * Bank-2x1-paralell
     * Bank-2x1
     * Bank-4x1-paralell
     * Bank-4x1
     * Bank-8x1-paralell
     * Bank-8x1
-    * *Blocks*
+    * **Blocks**
       * Bank-2x1-paralell
       * Bank-2x1
       * Bank-4x1-paralell
       * Bank-4x1
       * Bank-8x1-paralell
       * Bank-8x1
-  * *02-bits-regs*
+  * **02-bits-regs**
     * bank-2x2
-  * *08-bits-regs*
+  * **08-bits-regs**
     * bank-2x8
     * bank-4x8
     * bank-8x8
-    * *Blocks*
+    * **Blocks**
       * bank-2x8
       * bank-4x8
       * bank-8x8
-* *Bus*
-  * *Bytes*
-    * *16B*
+* **Bus**
+  * **Bytes**
+    * **16B**
       * Join
       * split
-    * *2B*
+    * **2B**
       * Join
       * Split
-    * *4B*
+    * **4B**
       * Join
       * Split
-    * *8B*
+    * **8B**
       * Join
       * split
-* *Machines*
-  * *Bytes*
-    * *16B*
+* **Machines**
+  * **Bytes**
+    * **16B**
       * download
       * dump-tx
       * dump
@@ -66,7 +75,7 @@ Library of Memories and Registers.
       * sum
       * test-acc
       * upload
-    * *2B*
+    * **2B**
       * browse
       * download
       * dump-tx
@@ -79,7 +88,7 @@ Library of Memories and Registers.
       * test-acc
       * upload-proto
       * upload
-    * *4B*
+    * **4B**
       * download
       * dump-tx
       * dump
@@ -90,7 +99,7 @@ Library of Memories and Registers.
       * sum
       * test-acc
       * upload
-    * *8B*
+    * **8B**
       * download
       * dump-tx
       * dump
@@ -101,43 +110,39 @@ Library of Memories and Registers.
       * sum
       * test-acc
       * upload
-* *MapIO*
-  * *06-bits*
-    * *Bus*
+* **MapIO**
+  * **06-bits**
+    * **Bus**
       * Join
       * Split
-* *Regs*
-  * *01-bit*
-    * Reg-rst
-    * Reg
-    * *Blocks*
-      * Reg-rst
-      * Reg
-  * *02-bits*
-    * Reg-rst
-    * Reg
-    * *Blocks*
-      * Reg-rst
-      * Reg
-  * *03-bits*
-    * Reg
-    * *Blocks*
-      * Reg
-  * *04-bits*
-    * Reg
-    * *Blocks*
-      * Reg
-  * *08-bits*
-    * Reg-rst
-    * Reg
-    * *Blocks*
-      * Reg
-* *SMemory*
-  * *01-bits*
+* **ROM**
+  * ROM-8KB
+* **SMemory**
+* **SMemory-Dual**
+  * memory-dual-16B
+  * memory-dual-16KB
+  * memory-dual-256B
+  * memory-dual-2B
+  * memory-dual-4B
+  * memory-dual-8B
+* **SMemory-str**
+  * memory-str-0002B
+  * memory-str-0004B
+  * memory-str-0008B
+  * memory-str-0016B
+  * memory-str-0032B
+  * memory-str-0064B
+  * memory-str-0128B
+  * memory-str-0256B
+  * **01-bits**
     * memory-512x1
-  * *17-bits*
+  * **12-bits**
+    * memory-512x12
+  * **16-bits**
+    * memory-16x16
+  * **17-bits**
     * memory-512x17
-  * *Bytes*
+  * **Bytes**
     * memory-002B
     * memory-004B
     * memory-008B
@@ -147,26 +152,28 @@ Library of Memories and Registers.
     * memory-128B
     * memory-256B
     * memory-512B
-    * *Bus*
+    * **Bus**
       * memory-002B-bus
       * memory-004B-bus
       * memory-008B-bus
       * memory-016B-bus
-  * *KiB*
+  * **KiB**
     * memory-01KiB
     * memory-02KiB
     * memory-04KiB
     * memory-08KiB
     * memory-16KiB
+* **Smemory-Boot**
+  * memory-16KB-boot
 
 ## Examples
-* *CT9-Examples*
-  * *01-Regs*
+* **CT9-Examples**
+  * **01-Regs**
     * 01-Reg-1bit-01
     * 02-Reg-1bit-panel
     * 03-Reg-2bits-01
     * 04-Reg-2bits-panel
-  * *02-Banks*
+  * **02-Banks**
     * 05-Bank-2x1-01
     * 06-Bank-2x1-panel
     * 07-Bank-2x1-paralell-panel
@@ -178,7 +185,7 @@ Library of Memories and Registers.
     * 13-Bank-8x8-read-cycle
     * 14-Bank-4x8-write-cycle
     * 15-Bank-4x8-read-write-cycle
-  * *03-Sync-Memory*
+  * **03-Sync-Memory**
     * 16-Mem16B-leds
     * 17-Mem16B-panel
     * 18-Smem-16B-read-cycle
@@ -186,67 +193,56 @@ Library of Memories and Registers.
     * 20-Smem-16B-read-write-cycles
     * 21-Mem1KiB-panel
     * 22-Mem1KiB-panel-file
-    * *ice-build*
-      * *21-Mem1KiB-panel*
-  * *04-Example-circuits*
+  * **04-Example-circuits**
     * 23-Prog-sequence-LEDs
     * 24-Mem-dump-increment
-    * *ice-build*
-      * *23-Prog-sequence-LEDs*
-      * *24-Volcado-incremento*
-  * *05-Memory-map-io*
+  * **05-Memory-map-io**
     * 25-1-Memory-map-6bits-ROM
     * 25-2-Memory-map-6bits-ROM-RAM
     * 25-3-Memory-map-6bits-ROM-RAM-OUTP
     * 25-4-Memory-map-6bits-ROM-RAM-OUTP-INP
     * 25-Memory-map-6bits
-    * *ice-build*
-      * *25-1-Memory-map-6bits-ROM*
-      * *25-2-Memory-map-6bits-ROM-RAM*
-      * *25-3-Memory-map-6bits-ROM-RAM-OUTP*
-      * *25-4-Memory-map-6bits-ROM-RAM-OUTP-INP*
-      * *25-Mapa-memoria-6bits*
-  * *ice-build*
-    * *20-Smem-16B-ciclo-escritura-lectura*
-    * *21-Mem1KiB-panel*
-* *TESTs*
-  * *Banks*
-    * *01-bit*
-      * *Bank-2x1*
+* **TESTs**
+  * **Banks**
+    * **01-bit**
+      * **Bank-2x1**
         * Reg-automatic-test
         * Reg-manual-test
-      * *Bank-4x1*
+      * **Bank-4x1**
         * Paralell-Reg-manual-test
         * Reg-automatic-test
         * Reg-manual-test
-      * *Bank-8x1*
+      * **Bank-8x1**
         * Paralell-Reg-manual-test
         * Reg-automatic-test
         * Reg-manual-test
-    * *08-bits*
-      * *Bank-2x8*
+    * **08-bits**
+      * **Bank-2x8**
         * Reg-automatic-test
         * Reg-manual-test
-      * *Bank-4x8*
+      * **Bank-4x8**
         * Reg-automatic-test
         * Reg-manual-test
-      * *Bank-8x8*
+      * **Bank-8x8**
         * Reg-automatic-test
         * Reg-manual-test
-        * *ice-build*
-          * *Reg-manual-test*
-  * *Machines*
-    * *Bytes*
-      * *002B*
-        * dump-tx
-        * dump
-        * icerok-probe
-        * init-seq-leds
-        * seq-leds
-        * test-acc-dump-tx
-        * upload-dump
-        * upload-test-acc-dump
-      * *004B*
+  * **Machines**
+    * **Bytes**
+      * **002B**
+        * 01-seq-leds
+        * 02-seq-inf-leds
+        * 03-init-seq-leds
+        * 04-dump
+        * 05-dump-tx
+        * 06-upload-dump
+        * 07-test-acc-dump-tx
+        * 08-upload-test-acc-dump
+        * 09-upload-proto-dump-tx
+        * 10-sample-seq-leds
+        * 11-browse-sample-leds
+        * 12-download
+        * 13-icerok-probe
+      * **004B**
         * 01-seq-leds
         * 02-init-seq-leds
         * 03-dump
@@ -256,8 +252,21 @@ Library of Memories and Registers.
         * 07-upload-dump
         * 08-upload-test-acc-dump
         * 09-upload-sum-dump
+        * 10-sample-download
+        * 11-icerok-probe
+      * **008B**
+        * 01-seq-leds
+        * 02-init-seq-leds
+        * 03-dump
+        * 04-dump-tx
+        * 05-test-acc-dump-tx
+        * 06-sum-dump-tx
+        * 07-upload-dump
+        * 08-upload-sum-dump
+        * 09-icerok-probe
+        * 09-sample-download
         * 10-icerok-probe
-      * *008B*
+      * **016B**
         * 01-seq-leds
         * 02-init-seq-leds
         * 03-dump
@@ -266,92 +275,85 @@ Library of Memories and Registers.
         * 06-sum-dump-tx
         * 07-upload-dump
         * 08-upload-sum-dump
-        * 09-icerok-probe
-      * *016B*
-        * 01-seq-leds
-        * 02-init-seq-leds
-        * 03-dump
-        * 04-dump-tx
-        * 05-test-acc-dump-tx
-        * 06-sum-dump-tx
-        * 07-upload-dump
-        * 08-upload-sum-dump
-        * 09-icerok-probe
-  * *Regs*
-    * *01-bit*
+        * 09-sample-download
+        * 10-icerok-probe
+  * **Regs**
+    * **01-bit**
       * Reg-automatic-test
       * Reg-manual-test
       * Reg-rst-automatic-test
       * Reg-rst-manual-test
-    * *02-bits*
+    * **02-bits**
       * Reg-automatic-test
       * Reg-manual-test
       * Reg-rst-automatic-test
       * Reg-rst-manual-test
-    * *03-bits*
+    * **03-bits**
       * Reg-automatic-test
       * Reg-manual-test
-    * *04-bits*
+    * **04-bits**
       * Reg-automatic-test
       * Reg-manual-test
-    * *08-bits*
+    * **08-bits**
       * Reg-automatic-test
       * Reg-manual-test
-  * *SMem*
-  * *SMem-bus*
-    * *Bytes*
-      * *002B*
+  * **SMem**
+  * **SMem-bus**
+    * **Bytes**
+      * **002B**
         * dump-leds
-      * *004B*
+      * **004B**
         * dump-leds
-      * *008B*
+      * **008B**
         * dump-leds
-      * *016B*
+      * **016B**
         * dump-leds
-    * *Bytes*
-      * *002B*
+    * **Bytes**
+      * **002B**
         * Smem-automatic-test
         * Smem-manual-test
-      * *004B*
+      * **004B**
         * Smem-automatic-test
         * Smem-manual-test
-      * *008B*
+      * **008B**
         * Smem-automatic-test
         * Smem-manual-test
-      * *016B*
+      * **016B**
         * Smem-automatic-test
         * Smem-manual-test
-      * *032B*
+      * **032B**
         * Smem-automatic-test
         * Smem-manual-test
-      * *064B*
+      * **064B**
         * Smem-automatic-test
         * Smem-manual-test
-      * *128B*
+      * **128B**
         * Smem-automatic-test
-      * *256B*
+      * **256B**
         * Smem-automatic-test
-      * *512B*
+      * **512B**
         * Smem-automatic-test
-        * *ice-build*
-          * *Smem-automatic-test*
-    * *KiB*
-      * *01KiB*
+    * **KiB**
+      * **01KiB**
         * Smem-automatic-test
-      * *02KiB*
+      * **02KiB**
         * Smem-automatic-test
-      * *04KiB*
+      * **04KiB**
         * Smem-automatic-test
-      * *08KiB*
+      * **08KiB**
         * Smem-automatic-test
-      * *16KiB*
+      * **16KiB**
         * Smem-automatic-test
-
 
 ## Authors
 * [Juan González-Gómez (Obijuan)](https://github.com/Obijuan)
 
 
-## License
 
-Licensed under [GPL-2.0](https://opensource.org/licenses/GPL-2.0).
+-------
+
+
+<!-- Badges -->
+[icestudio-image]: https://img.shields.io/badge/collection-icestudio-blue.svg
+[icestudio-url]: https://github.com/FPGAwars/icestudio
+[version-image]: https://img.shields.io/badge/version-v0.1.0-orange.svg
