@@ -1,12 +1,12 @@
 
 
-# iceMem Collection
+# icemem Collection
 
 [![Icestudio][icestudio-image]][icestudio-url]
 ![Version][version-image]
 
 
-Library of Memories and Registers
+Library of Memories
 
 
 ## License

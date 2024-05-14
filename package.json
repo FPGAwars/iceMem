@@ -1,8 +1,8 @@
 {
-  "name": "iceMem",
+  "name": "icemem",
   "version": "0.1.0",
-  "description": "Library of Memories and Registers",
-  "keywords": "Tutorial,Jedi Academy",
+  "description": "Library of Memories",
+  "keywords": ["Tutorial,Jedi Academy"],
   "license": "GPL-2.0",
   "authors": [{
     "name": "Juan González-Gómez (Obijuan)",
