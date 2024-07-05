@@ -16,40 +16,8 @@
           "type": "basic.output",
           "data": {
             "name": "addr",
-            "virtual": true,
             "range": "[5:0]",
-            "pins": [
-              {
-                "index": "5",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "4",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "3",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "2",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "1",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "size": 6
           },
           "position": {
             "x": 592,
@@ -74,91 +42,9 @@
           "type": "basic.input",
           "data": {
             "name": "i",
-            "virtual": true,
             "range": "[15:0]",
-            "pins": [
-              {
-                "index": "15",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "14",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "13",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "12",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "11",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "10",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "9",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "8",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "7",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "6",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "5",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "4",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "3",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "2",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "1",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "clock": false
+            "clock": false,
+            "size": 16
           },
           "position": {
             "x": 48,
@@ -219,7 +105,7 @@
               ]
             },
             "params": [],
-            "code": "//-- Addr\nassign addr = i[14:10];\n\n//-- data\nassign data = i[9:2];\n\n//-- write\nassign wr = i[1];\n\n//-- Bus is busy\nassign bbusy = i[0];"
+            "code": "//-- Addr\nassign addr = i[15:10];\n\n//-- data\nassign data = i[9:2];\n\n//-- write\nassign wr = i[1];\n\n//-- Bus is busy\nassign bbusy = i[0];"
           },
           "position": {
             "x": 224,
