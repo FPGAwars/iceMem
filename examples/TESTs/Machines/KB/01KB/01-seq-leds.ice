@@ -336,7 +336,7 @@
           "type": "basic.memory",
           "data": {
             "name": "",
-            "list": "01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n",
+            "list": "01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n01\n03\n07\n0F\n1F\n3F\n7F\nFF\nFE\nFC\nF8\nF0\nE0\nC0\n80\n00\n80\nC0\nE0\nF0\nF8\nFC\nFE\nFF\n7F\n3F\n1F\n0F\n07\n03\n01\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n18\n3C\n7E\nFF\nFF\n7E\n3C\n18\n00\n81\nC3\nE7\nFF\nFF\nE7\nC3\n81\n00\n81\nC3\nE7\nFF\nFF\n",
             "local": false,
             "format": 10
           },
@@ -10764,7 +10764,8 @@
             {
               "source": {
                 "block": "c524787b-c8e1-4eef-8923-a8abe968f8e6",
-                "port": "afe50480-6fe5-4ca6-b639-c730569a6a1d"
+                "port": "afe50480-6fe5-4ca6-b639-c730569a6a1d",
+                "size": 8
               },
               "target": {
                 "block": "914e03dd-1133-4325-a333-b10f953ecce5",
@@ -11023,9 +11024,76 @@
               },
               "target": {
                 "block": "965d31c0-53f4-45eb-a3d6-ef0e2a062933",
-                "port": "3ebd9e0a-9308-4615-af47-ae7b97f6f04a"
+                "port": "3ebd9e0a-9308-4615-af47-ae7b97f6f04a",
+                "size": 8
               },
               "size": 8
+            },
+            {
+              "source": {
+                "block": "f72b881f-b643-426e-8650-16cb2df17870",
+                "port": "out",
+                "size": 20
+              },
+              "target": {
+                "block": "3d8ff5ea-bcf6-4ba4-af75-002bcfe26d71",
+                "port": "inlabel"
+              },
+              "size": 20
+            },
+            {
+              "source": {
+                "block": "2e96a9ae-b651-47eb-91d9-3c2028c54ba6",
+                "port": "outlabel"
+              },
+              "target": {
+                "block": "c524787b-c8e1-4eef-8923-a8abe968f8e6",
+                "port": "49ce7ad9-46be-4aef-b4fc-e6cf7885d4b2",
+                "size": 20
+              },
+              "size": 20
+            },
+            {
+              "source": {
+                "block": "bad0b614-09b0-4549-b2fd-570dd416087e",
+                "port": "outlabel"
+              },
+              "target": {
+                "block": "231a4209-062a-4390-ab88-e3a3da1d6d8e",
+                "port": "2eb2a881-f1f2-4397-a515-00c1714ae78d",
+                "size": 10
+              },
+              "vertices": [
+                {
+                  "x": 1000,
+                  "y": -88
+                }
+              ],
+              "size": 10
+            },
+            {
+              "source": {
+                "block": "a7480b72-75a7-4f9c-b2ab-3695a66274ee",
+                "port": "outlabel"
+              },
+              "target": {
+                "block": "09b8a0dd-8cd8-400a-b966-7c1f40d73319",
+                "port": "797d2c63-0b37-469c-b16f-c923f3f5f562",
+                "size": 20
+              },
+              "size": 20
+            },
+            {
+              "source": {
+                "block": "6bc335ca-6baf-4c7f-ae7d-e6ef39771e7e",
+                "port": "cd4c71a7-14f3-4ca4-806c-ea2ffcd8455e",
+                "size": 10
+              },
+              "target": {
+                "block": "74db1620-d8db-4020-9f22-11d5b66f4cd1",
+                "port": "inlabel"
+              },
+              "size": 10
             },
             {
               "source": {
@@ -11178,62 +11246,12 @@
             },
             {
               "source": {
-                "block": "f72b881f-b643-426e-8650-16cb2df17870",
-                "port": "out"
-              },
-              "target": {
-                "block": "3d8ff5ea-bcf6-4ba4-af75-002bcfe26d71",
-                "port": "inlabel"
-              },
-              "size": 20
-            },
-            {
-              "source": {
-                "block": "2e96a9ae-b651-47eb-91d9-3c2028c54ba6",
-                "port": "outlabel"
-              },
-              "target": {
-                "block": "c524787b-c8e1-4eef-8923-a8abe968f8e6",
-                "port": "49ce7ad9-46be-4aef-b4fc-e6cf7885d4b2"
-              },
-              "size": 20
-            },
-            {
-              "source": {
-                "block": "bad0b614-09b0-4549-b2fd-570dd416087e",
-                "port": "outlabel"
-              },
-              "target": {
-                "block": "231a4209-062a-4390-ab88-e3a3da1d6d8e",
-                "port": "2eb2a881-f1f2-4397-a515-00c1714ae78d"
-              },
-              "vertices": [
-                {
-                  "x": 1000,
-                  "y": -88
-                }
-              ],
-              "size": 10
-            },
-            {
-              "source": {
                 "block": "09b8a0dd-8cd8-400a-b966-7c1f40d73319",
                 "port": "d5a099ef-0689-431d-929c-070735cb168f"
               },
               "target": {
                 "block": "dcfc68b7-3ffa-409d-a54e-ec690f1fe3b6",
                 "port": "in"
-              },
-              "size": 20
-            },
-            {
-              "source": {
-                "block": "a7480b72-75a7-4f9c-b2ab-3695a66274ee",
-                "port": "outlabel"
-              },
-              "target": {
-                "block": "09b8a0dd-8cd8-400a-b966-7c1f40d73319",
-                "port": "797d2c63-0b37-469c-b16f-c923f3f5f562"
               },
               "size": 20
             },
@@ -11253,17 +11271,6 @@
                 }
               ],
               "size": 20
-            },
-            {
-              "source": {
-                "block": "6bc335ca-6baf-4c7f-ae7d-e6ef39771e7e",
-                "port": "cd4c71a7-14f3-4ca4-806c-ea2ffcd8455e"
-              },
-              "target": {
-                "block": "74db1620-d8db-4020-9f22-11d5b66f4cd1",
-                "port": "inlabel"
-              },
-              "size": 10
             }
           ]
         }
